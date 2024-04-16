@@ -9,10 +9,10 @@ module.exports = {
 					loader: 'babel-loader',
 					options: {
 						presets: ['@babel/preset-react', '@babel/preset-env'],
-						plugins: ['@babel/plugin-transform-runtime'], // enables diff features such as ES6 syntax and etc
-					},
-				},
-			},
-		],
-	},
+						plugins: ['@babel/plugin-transform-runtime'] // enables diff features such as ES6 syntax and etc
+					}
+				}
+			}
+		]
+	}
 };
