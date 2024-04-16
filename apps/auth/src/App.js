@@ -9,7 +9,7 @@ import SignUp from './components/Signup';
 
 // helps to escape styles collision in prod
 const generateClassName = createGenerateClassName({
-	productionPrefix: 'auth',
+	productionPrefix: 'au',
 });
 
 export default ({ history }) => {
